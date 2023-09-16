@@ -1,0 +1,14 @@
+@charset"UTF-8";
+
+
+body{
+    background-color:whitesmoke;
+}
+h1{
+    background-color: rgb(249, 249, 249);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40PX;
+    text-align: justify;
+    text-shadow: 20cqmax;
+    direction: ltr;
+}

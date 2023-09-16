@@ -1,0 +1,73 @@
+@charset 'UTF-8';
+
+
+
+:root{
+
+   --cor01: #003454;
+   --cor02: #28546B
+
+}
+@font-face {
+    font-family: "Sora";
+    src: url("Sora/Sora-VariableFont_wght.ttf") format('truetype');
+    font-weight:normal;
+}
+
+*{
+    margin: 0px
+}
+body{
+    background-color: white;
+    font-family:'Sora'; 
+
+}
+
+header{
+    background-color: var(--cor01) ;
+    font-family: 'Sora';
+    padding: auto;
+    display:flex;
+    min-height: 155px;
+    margin: px;
+
+
+    
+}
+
+.logo{
+
+    margin: auto;
+}
+
+nav{
+    text-align: right;
+    text-decoration: none;
+    margin: auto;
+    
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+
+}
+
+.background{
+    background-color: var(--cor02);
+    min-height:600px;
+    margin-top: 1px;
+    display: flex;
+}
+
+
+
+
+
+
